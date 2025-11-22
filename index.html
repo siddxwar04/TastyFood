@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyFood.- Premium Food & Dining</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6db594b4a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="preloader">
+        <img src="loader.gif" alt="Loading...">
+    </div>
+
+    <nav>
+        <div class="container navigation">
+            <a href="#" class="logo_container">
+                <div class="logo_icon_circle">
+                    <img src="Images/logo1.jpg" alt="TastyFood Logo">
+                </div>
+                <div class="brand_text">Tasty<span>Food.</span></div>
+            </a>
+            
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reserve">Reservations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="auth_buttons">
+                <a href="login.html" class="btn btn-login">Log In</a>
+                <a href="register.html" class="btn btn-primary">Sign Up</a>
+            </div>
+            
+            <div class="mobile_menu_icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container hero">
+        <div class="hero_content">
+            <span class="tag">Est. 2025</span>
+            <h1>Taste the <br> Art of <span>Cooking.</span></h1>
+            <p>Experience a symphony of flavors. From our signature stack burgers to authentic Mediterranean grills, we serve passion on a plate.</p>
+            <div class="hero_btns">
+                <a href="#menu" class="btn btn-primary">Order Now <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
+                <a href="#reserve" class="btn btn-login"><i class="fa-solid fa-chair" style="margin-right: 8px;"></i> Book Table</a>
+            </div>
+        </div>
+        <div class="hero_image">
+            <img src="Images/hero-burger.jpg" alt="Signature Burger">
+        </div>
+    </section>
+
+    <section class="spotlight_section">
+        <div class="container spotlight_grid">
+            <div class="spotlight_img">
+                <img src="Images/special.jpg" alt="The Morning Glory Burger">
+            </div>
+            <div class="spotlight_content">
+                <span class="tag" style="background: #4a4a4a; color: #ff914d;">Chef's Masterpiece</span>
+                <h2>The "Morning Glory"</h2>
+                <p>Our award-winning brunch burger. A succulent wagyu beef patty topped with smoked turkey bacon, melted gouda, and a perfectly runny sunny-side-up egg on a toasted brioche.</p>
+                <ul class="spotlight_list">
+                    <li><i class="fa-solid fa-fire"></i> Flame-Grilled Wagyu</li>
+                    <li><i class="fa-solid fa-egg"></i> Farm-Fresh Organic Egg</li>
+                    <li><i class="fa-solid fa-bread-slice"></i> House-Made Brioche</li>
+                </ul>
+                <button class="btn btn-primary">₹499 - Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container menu_section" id="menu">
+        <span class="tag" style="background: #fff0db; color: #ff914d;">Full Menu</span>
+        <h2>Curated for You</h2>
+        <p>Authentic flavors from around the world, all in one place.</p>
+
+        <div class="menu_tabs">
+            <button class="tab_btn active">All</button>
+            <button class="tab_btn">Breakfast</button>
+            <button class="tab_btn">Lunch</button>
+            <button class="tab_btn">Dessert</button>
+        </div>
+
+        <div class="menu_grid">
+            <div class="menu_card">
+                <img src="Images/menu-grill.jpg" alt="Mixed Grill">
+                <div class="card_info">
+                    <h3>Royal Mixed Grill</h3>
+                    <span>₹850</span>
+                </div>
+            </div>
+
+            <div class="menu_card">
+                <img src="Images/menu-pizza.jpg" alt="BBQ Chicken Pizza">
+                <div class="card_info">
+                    <h3>Smoked BBQ Pizza</h3>
+                    <span>₹550</span>
+                </div>
+            </div>
+
+            <div class="menu_card">
+                <img src="Images/menu-smoothie.jpg" alt="Fresh Smoothies">
+                <div class="card_info">
+                    <h3>Tropical Trio</h3>
+                    <span>₹220</span>
+                </div>
+            </div>
+
+            <div class="menu_card">
+                <img src="Images/menu-sandwich.jpg" alt="Club Sandwich">
+                <div class="card_info">
+                    <h3>Classic Club</h3>
+                    <span>₹299</span>
+                </div>
+            </div>
+
+            <div class="menu_card">
+                <img src="Images/menu-wraps.jpg" alt="Chicken Wraps">
+                <div class="card_info">
+                    <h3>Spicy Chicken Wraps</h3>
+                    <span>₹350</span>
+                </div>
+            </div>
+
+            <div class="menu_card">
+                <img src="Images/menu-toast.jpg" alt="Egg Toast">
+                <div class="card_info">
+                    <h3>Sunrise Toast</h3>
+                    <span>₹199</span>
+                </div>
+            </div>
+
+            <div class="menu_card">
+                <img src="Images/menu-cake.jpg" alt="Raspberry Cake">
+                <div class="card_info">
+                    <h3>Berry Slice</h3>
+                    <span>₹250</span>
+                </div>
+            </div>
+
+            <div class="menu_card">
+                <img src="Images/menu-kunafa.jpg" alt="Turkish Kunafa">
+                <div class="card_info">
+                    <h3>Authentic Kunafa</h3>
+                    <span>₹320</span>
+                </div>
+            </div>
+             <div class="menu_card">
+                <img src="Images/molten-lava.jpg" alt="Lava Cake">
+                <div class="card_info">
+                    <h3>Molten Lava</h3>
+                    <span>₹220</span>
+                </div>
+            </div>
+             <div class="menu_card">
+                <img src="Images/menu-loaf.jpg" alt="Blueberry Loaf">
+                <div class="card_info">
+                    <h3>Blueberry Loaf</h3>
+                    <span>₹150</span>
+                </div>
+            </div>
+             <div class="menu_card">
+                <img src="Images/menu-cupcake.jpg" alt="Choco Cupcakes">
+                <div class="card_info">
+                    <h3>Choco Cupcakes</h3>
+                    <span>₹99</span>
+                </div>
+            </div>
+             <div class="menu_card">
+                <img src="Images/menu-snacks.jpg" alt="Party Snacks">
+                <div class="card_info">
+                    <h3>Party Platter</h3>
+                    <span>₹450</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation_section" id="reserve">
+        <div class="container reservation_container">
+            <div class="reservation_form_wrapper">
+                <span class="tag">Book A Table</span>
+                <h2>Dining with us?</h2>
+                <p>Reserve your spot for an unforgettable evening. We recommend booking at least 24 hours in advance.</p>
+                
+                <form class="reservation_form" action="reservation.php" method="POST">
+                    <div class="input_row">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="text" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="input_row">
+                        <input type="date" name="date" required>
+                        <input type="time" name="time" required>
+                        <select name="people" required>
+                            <option value="2 People">2 People</option>
+                            <option value="3 People">3 People</option>
+                            <option value="4 People">4 People</option>
+                            <option value="5+ People">5+ People</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Confirm Booking</button>
+                </form>
+                </div>
+            <div class="reservation_image">
+                <img src="Images/reservation.jpg" alt="Waitress Serving">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container footer_container">
+            <div class="footer_col">
+                <h3>TastyFood.</h3>
+                <p>Bringing the world's finest flavors to your table. Fresh ingredients, expert chefs, and a passion for food.</p>
+                <div class="social_icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="footer_col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Full Menu</li>
+                    <li>Reservations</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> (555) 987-6543</li>
+                    <li><i class="fa-solid fa-envelope"></i> bookings@tastyfood.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i>Yelahnka,Banglore</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>&copy; 2024 TastyFood Restaurant. All Rights Reserved.</p>
+        </div>
+    </footer>
+<script>
+        window.addEventListener("load", function() {
+            const preloader = document.getElementById("preloader");
+            
+            const minimumLoadingTime = 3000; 
+
+            setTimeout(function() {
+                
+                preloader.classList.add("fade-out");
+
+                setTimeout(() => {
+                    preloader.style.display = "none";
+                }, 500); 
+
+            }, minimumLoadingTime);
+        });
+    </script>
+
+</body>
+</html>

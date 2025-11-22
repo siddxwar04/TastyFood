@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6db594b4a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="navigation container">
+            <div class="logo_container">
+                <img src="Images/logo1.jpg" alt="Logo" style="width: 50px; border-radius: 50%;">
+            </div>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="bar_icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="auth_wrapper container">
+        <form class="auth_form" action="register_process.php" method="POST">
+            <h2>Create Account</h2>
+
+            <div class="form_group">
+                <label>Full Name</label>
+                <input type="text" name="username" required>
+            </div>
+
+            <div class="form_group">
+                <label>Email Address</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="form_group">
+                <label>Password</label>
+                <input type="password" name="password" required>
+            </div>
+
+            <div class="form_group">
+                <label>Confirm Password</label>
+                <input type="password" name="confirm-password" required>
+            </div>
+
+            <button type="submit" class="auth_btn">REGISTER</button>
+
+            <p class="switch_link">
+                Already have an account? <a href="login.html">Log In</a>
+            </p>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer_container container">
+            <div class="link_lists">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Menu</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="news_letter">
+                <h3>Newsletter</h3>
+                <input type="email" placeholder="Enter email...">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
